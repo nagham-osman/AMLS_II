@@ -6,7 +6,7 @@ This code is for use within the UCL Electronic Engineering AMLS II module (ELEC0
 Setup
 -----
 **Please use Google Colab to run the code.**
-** You should start with the following steps:**
+**You should start with the following steps:**
 
 Open the .ipynb file that you would like to run in GitHub. 
 Then, in the URL above, change **github.com** to **githubtocolab.com** and press Enter.
