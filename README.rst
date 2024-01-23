@@ -5,7 +5,8 @@ This code is for use within the UCL Electronic Engineering AMLS II module (ELEC0
 
 Setup
 -----
-**If using Google Colab to run the code, do the following steps:**
+**Please use Google Colab to run the code.**
+** You should start with the following steps:**
 
 Open the .ipynb file that you would like to run in GitHub. 
 Then, in the URL above, change **github.com** to **githubtocolab.com** and press Enter.
@@ -25,83 +26,7 @@ Now, in a new cell at the top of the code, run the following lines to install th
     
     For Lab2:
         !pip install --upgrade tf_slim
-        
-**If using Anaconda virtual environment manager to run the code, do the following steps:**
 
-Download Git using the following link::
-
-    https://git-scm.com/downloads
-
-Change the current working directory to the location where you want to
-clone this GitHub project, and run::
-
-    git clone https://github.com/cwfparsonson/AMLS_II
-
-If you have installed Anaconda, you can create a new environment with Python 3.6 called amls2 by running::
-
-    conda create --name amls2 python=3.6
-
-In your Python 3.6 environment or machine, from the route directory of where you
-cloned this project, install the required packages by running::
-
-    For Lab1 - MLP:
-        pip install tensorflow==1.12.0
-        pip install keras==2.2.4
-        pip install pillow
-        pip install opencv-python
-        conda install -c conda-forge dlib
-    
-    For Lab1 - MoE:
-        pip install tensorflow==1.12.0
-        pip install keras==2.2.4
-        pip install seaborn==0.7.1
-        pip install pydot==1.4.1
-    
-    For Lab2:
-        pip install tensorflow==1.12.0
-        pip install matplotlib
-        pip install dask --upgrade
-
-To test that your packages have installed correctly, open ``Lab1/Lab1_MLP/lab1_MLP.ipynb``
-in a Jupyter Notebook and try to run the cells.
-
-If everything has been correctly installed, you should be able to run all Jupyter Notebook
-scripts in each of the folders.
-
-**Note that if you are using windows, please uncomment line 112 in Lab1/Lab1_MLP/lab3_data.py**
-
-**If using Jupyter Online to run the code, do the following steps:**
-
-In the first cell, clone this GitHub project, and run::
-
-    !git clone https://github.com/cwfparsonson/AMLS_II
-    
-Open the binder folder and open the .ipynb file you want to run.
-
-Now, in a new cell at the top of the code, run the following lines to install the needed packages::
-    
-    For Lab1 - MLP:
-        !pip install tensorflow==1.12.0
-        !pip install keras==2.2.4
-        !pip install pillow
-        !pip install opencv-python
-        !pip install opencv-python-headless
-        !conda install -y -c conda-forge dlib
-    
-    For Lab1 - MoE:
-        !pip install tensorflow==1.12.0
-        !pip install keras==2.2.4
-        !pip install seaborn
-        !pip install pydot==1.4.1
-        !pip install 'h5py==2.10.0' --force-reinstall
-    
-    For Lab2:
-        !pip install tensorflow==1.12.0
-        !pip install matplotlib
-        !pip install dask --upgrade
-
-
-**Note that if you are using windows, please uncomment line 112 in Lab1/Lab1_MLP/lab3_data.py**
 
 Issues
 ------
